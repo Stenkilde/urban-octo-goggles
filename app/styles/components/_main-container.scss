@@ -1,0 +1,7 @@
+.main-container {
+	width: 100vw;
+	height: 100vh;
+	@extend .u-flex;
+	@extend .u-flex-horizontal-center;
+	@extend .u-flex-vertical-center
+}

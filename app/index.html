@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tattooGame">
+<head>
+    <meta charset="UTF-8">
+    <title>୧( ಠ┏ل͜┓ಠ )୨ tattooGame</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+    <body>
+
+        <div ui-view="application"></div>
+
+        <script src="libs/angular/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+        <script src="libs/angular-socket-io/socket.js"></script>
+        <script src="config/config.js"></script>
+        <script src="models/discover.factory.js"></script>
+        <script src="modules/_application/application.route.js"></script>
+        <script src="modules/shared/topbar/topbar.controller.js"></script>
+        <script src="modules/main/main.route.js"></script>
+        <script src="modules/main/index/index.controller.js"></script>
+        <script src="modules/main/join/join.controller.js"></script>
+
+        <script type="text/javascript" src="socket.io/socket.io.js"></script>
+
+        <!--<script type="text/javascript">
+            //This is all that needs
+            var socket = io.connect();
+            //Now we can listen for that event
+            socket.on('connection', function (socket) {
+                socket.join('123');
+            });
+        </script>-->
+    </body>
+</html>

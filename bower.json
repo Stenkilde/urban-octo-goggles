@@ -1,0 +1,22 @@
+{
+  "name": "kartoffelskralder",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Stenkilde <hello@stenkil.de>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-socket-io": "~0.7.0"
+  }
+}

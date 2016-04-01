@@ -1,0 +1,17 @@
+<div class="player-card">
+
+
+    <div class="player-card__content">
+        <img ng-src="{{index.singleDiscover.url}}" alt="{{index.singleDiscover.description}}">
+        <p>{{index.singleDiscover.user.data.username}}</p>
+        <p>{{index.singleDiscover.description}}</p>
+        <ul class="player-card__list">
+            <li><span>Comment Count</span> {{index.singleDiscover.comment_count}}</li>
+            <li><span>Like Count</span> {{index.singleDiscover.like_count}}</li>
+        </ul>
+    </div>
+
+    <div class="player-card__footer">
+        <button ng-click="index.getRandomCard()">Get new card!</button>
+    </div>
+</div>

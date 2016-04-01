@@ -1,0 +1,16 @@
+.player-card {
+    max-width: 500px;
+    @extend .u-flex;
+    @extend .u-flex-column;
+    .player-card__content {
+        @extend .u-flex-auto;
+    }
+    .player-card__list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .player-card__footer {
+        text-align: center;
+    }
+}
