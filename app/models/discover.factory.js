@@ -10,8 +10,8 @@
             getImages: getImages
         };
 
-        var API_URL = 'http://app.api.sta.tattoodo.com/v1/app/';
-        var PARAMS = 'includes=user&length50';
+        var API_URL = 'https://app-api.tattoodo.com/v1/app/';
+        var PARAMS = 'includes=user&length=50';
 
         return service;
 

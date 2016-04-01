@@ -8,13 +8,14 @@
     /* @ngInject */
     function Index(DiscoverFactory) {
         /*jshint validthis: true */
-        var vm = this;
-        vm.discover = [];
-        vm.singleDiscover = {};
-        vm.arrayLength = null;
+        var vm              = this;
+        vm.discover         = [];
+        vm.singleDiscover   = {};
+        vm.arrayLength      = null;
 
         // Functions
-        vm.getRandomCard = getRandomCard;
+        vm.getRandomCard    = getRandomCard;
+        vm.makeItSpin       = makeItSpin;
 
         activate();
 
@@ -30,6 +31,10 @@
             });
 
 
+        }
+
+        function makeItSpin() {
+            console.log('SPIN');
         }
 
     }
